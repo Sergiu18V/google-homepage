@@ -1,0 +1,106 @@
+img {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  }
+
+  form {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  }
+
+  #searchbar {
+  		width: 500px;
+  		height: 40px;
+  	 	/*box-shadow: 0.5px 0.5px;*/
+  	 	border: none;
+  	 	border:solid 0.5px;
+  	 	border-radius: 10px;
+  }
+
+  #left {
+  	float: left;
+  }
+
+   #right {
+  	float: right;
+  	margin-right: 50px;
+  }
+
+  li {
+  	display: inline;
+  	padding: 5px;
+  }
+
+
+  a {
+  	text-decoration: none;
+  	color: black;
+  	font-family: arial, sans serif;
+  	font-size: 14px;
+  }
+
+  a:hover {
+  	text-decoration: underline;
+  }
+
+  .buttons {
+  	position: absolute;
+  	top: 55%;
+  	left: 48%;
+  	margin-top: 5px;
+  	transform: translate(-41%, -50%);
+  }
+
+#lucky, #search {
+	width: 10em;  height: 2.5em;
+}
+
+#search {
+	margin-right: 10px;
+}
+
+#lucky {
+	margin-left: 10px;
+}
+
+#right>li:nth-child(3) {
+  	color: #fff;
+  	padding: 5px;
+  	border: 1px solid #4285f4;
+  	font-weight: bold;
+  	border-radius: 5px;
+  	background-color: #4285f4
+  	/*border:solid 0.1px;*/
+  }
+
+footer {
+	position: absolute;
+	bottom: 0;	
+	width: 100%;
+	padding: 2px;
+	margin-left: -27px;
+/*	height: 35px;
+*/	/*background-color: #f2f2f2;*/
+}
+
+	#bottomleft {
+  	float: left;
+  }
+
+   #bottomright {
+  	float: right;
+  }
+
+  /*I did not understand the centering completely, I need to read what the
+  transform does. At the moment, I copied the CSS from the link, and I 
+  adjusted it, but I need to make sure I understand it before moving on.
+
+  I did not use the specificity on CSS, and I might have created more ids than 
+  I needed to. I think that I should also add the top right button 
+  and then the background on the footer*/
