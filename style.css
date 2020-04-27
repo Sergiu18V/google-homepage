@@ -96,11 +96,3 @@ footer {
    #bottomright {
   	float: right;
   }
-
-  /*I did not understand the centering completely, I need to read what the
-  transform does. At the moment, I copied the CSS from the link, and I 
-  adjusted it, but I need to make sure I understand it before moving on.
-
-  I did not use the specificity on CSS, and I might have created more ids than 
-  I needed to. I think that I should also add the top right button 
-  and then the background on the footer*/
